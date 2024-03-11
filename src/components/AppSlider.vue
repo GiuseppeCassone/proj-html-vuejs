@@ -35,7 +35,7 @@
 <style lang="scss">
 
     .carousel-inner{
-        height: 560px;
+        height: 700px;
 
         .carousel-item{
             height: 100%;
