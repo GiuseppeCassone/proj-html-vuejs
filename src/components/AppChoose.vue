@@ -28,14 +28,14 @@
                     <div class="col-10 offset-2 choose-us">
                         <img src="../../public/img/w-2.png" alt="">
                         <div class="ps-4">
-                            <h4 class="mb-3">Safety First</h4>
+                            <h4 class="mb-3">Play Yards</h4>
                             <p>It is a long established fact that a reader will be distructed by the readable content of a page when looking at its layout.</p>
                         </div>
                     </div>
                     <div class="col-8 offset-4 choose-us">
                         <img src="../../public/img/w-1.png" alt="">
                         <div class="ps-4">
-                            <h4 class="mb-3">Safety First</h4>
+                            <h4 class="mb-3">Monitor Your Pets</h4>
                             <p>It is a long established fact that a reader will be distructed by the readable content of a page when looking at its layout.</p>
                         </div>
                     </div>
