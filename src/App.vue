@@ -21,5 +21,6 @@
 </template>
 
 <style lang="scss">
+@use './style.scss';
 
 </style>
