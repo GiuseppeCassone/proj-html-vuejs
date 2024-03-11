@@ -34,4 +34,11 @@
 
 <style lang="scss">
 
+    .carousel-inner{
+        height: 560px;
+
+        .carousel-item{
+            height: 100%;
+        }
+    }
 </style>
