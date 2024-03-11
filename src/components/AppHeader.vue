@@ -1,11 +1,22 @@
 <script>
+    import AppNavContacts from './AppNavContacts.vue';
+    import AppNav from './AppNav.vue';
+
     export default {
         name: 'AppHeader',
+
+        components: {
+            AppNavContacts,
+            AppNav,
+        }
     }
 </script>
 
 <template>
-    <h1>Ciao!</h1>
+
+    <AppNavContacts></AppNavContacts>
+    <AppNav></AppNav>
+    
 </template>
 
 <style lang="scss">
