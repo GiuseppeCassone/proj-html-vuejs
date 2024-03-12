@@ -8,10 +8,9 @@
 
 <template>
 
-    <div class="choose">
-        <div class="row">
-            <div class="col-6"><img class="w-100" src="../../public/img/why.png" alt=""></div>
-            <div class="col-6 p-5">
+    <div class="choose d-flex">
+            <div class="col-left p-0"><img class="w-100" src="../../public/img/why.png" alt=""></div>
+            <div class="col-right p-5">
                 <div class="choose-logo mb-3">
                     <img src="../../public/img/dog-icon.png" alt="">
                     <span class="ps-4">Choose Us</span>
@@ -41,20 +40,28 @@
                     </div>
                 </div>
             </div>
-        </div>
     </div>
 
 </template>
 
 <style lang="scss">
+    .choose{
+        .col-left{
+            width: 50%;
+        }
 
-    .choose-us{
-        display: flex;
-        flex-direction: row;
+        .col-right{
+            width: 50%;
+        }
 
-        img{
-            width: 150px;
-            height: 150px;
+        .choose-us{
+            display: flex;
+            flex-direction: row;
+    
+            img{
+                width: 150px;
+                height: 150px;
+            }
         }
     }
 

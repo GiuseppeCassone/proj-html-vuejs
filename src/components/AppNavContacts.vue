@@ -41,39 +41,39 @@
             }
         }
 
-        .socials{
-            .fa-brands {
-                font-size: 16px;
-                padding: 4px;
-                border-radius: 20%;
-                color: white;
-            }
-            .fa-square-facebook{              
-                background-color: blue;
-            }
+    }
+    
+    .socials{
+        .fa-brands {
+            font-size: 16px;
+            padding: 4px;
+            border-radius: 20%;
+            color: white;
+        }
+        .fa-square-facebook{              
+            background-color: blue;
+        }
 
-            .fa-pinterest-p{
-                padding-left: 5px;
-                padding-right: 5px;
-                background-color: #BC2C4D;
-            }
+        .fa-pinterest-p{
+            padding-left: 5px;
+            padding-right: 5px;
+            background-color: #BC2C4D;
+        }
 
-            .fa-twitter{
-                background-color: #81D1D4;
-            }
+        .fa-twitter{
+            background-color: #81D1D4;
+        }
 
-            .fa-linkedin-in{
-                padding-left: 5px;
-                padding-right: 5px;
-                background-color: #0963CB;
-            }
+        .fa-linkedin-in{
+            padding-left: 5px;
+            padding-right: 5px;
+            background-color: #0963CB;
+        }
 
-            .fa-instagram{
-                padding-left: 5px;
-                padding-right: 5px;
-                background-color: purple;
-            }
+        .fa-instagram{
+            padding-left: 5px;
+            padding-right: 5px;
+            background-color: purple;
         }
     }
-
 </style>

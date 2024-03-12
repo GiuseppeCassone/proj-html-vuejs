@@ -7,7 +7,7 @@
 </script>
 
 <template>
-    <div class="about-us">
+    <div class="about-us position-relative">
         <div class="container about-inner">
             <div class="row">
                 <div class="col-6"><img src="../../public/img/about.png" alt=""></div>
@@ -22,6 +22,7 @@
                 </div>
             </div>
         </div>
+        <img class="dog-img" src="../../public/img/dog-logo.png" alt="">
     </div>
 
 </template>
@@ -34,6 +35,15 @@
         .about-inner{
             padding: 90px 20px;
         }
-    }
 
+    }
+    
+    .dog-img{
+        width: 200px;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        color: gray;
+    }
+    
 </style>

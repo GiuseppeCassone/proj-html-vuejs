@@ -8,7 +8,7 @@
 
 <template>
 
-    <div class="service">
+    <div class="service position-relative">
         <div class="container">
             <div class="inner-service d-flex flex-column align-items-center justify-content-center gap-5">
                 <span>Service</span>
@@ -57,6 +57,8 @@
                 </div>
             </div>
         </div>
+        <img class="dog-img-left" src="../../public/img/dog-left.png" alt="">
+        <img class="dog-img" src="../../public/img/dog-logo.png" alt="">
     </div>
 
 </template>
@@ -96,6 +98,13 @@
                 }
             }
 
+        }
+
+        .dog-img-left{
+            width: 150px;
+            position: absolute;
+            top: 40px;
+            left: 0;
         }
     }
 </style>
