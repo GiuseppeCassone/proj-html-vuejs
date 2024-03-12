@@ -31,21 +31,6 @@ import AppNavList from './AppNavList.vue';
             <div class="collapse navbar-collapse justify-content-end gap-3" id="navbarNav">
                 <ul class="navbar-nav gap-3">
                     <AppNavList v-for="currentNavLink in store.navLinks" :navLinks="currentNavLink"></AppNavList>
-                    <!-- <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#" >Link</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#" >Link</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#" >Link</a>
-                    </li> -->
                 </ul>
                 <button class="btn">Get In Touch!</button>
             </div>

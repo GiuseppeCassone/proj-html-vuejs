@@ -1,6 +1,22 @@
 <script>
+
+import { store } from '../store.js';
+
+import AppFooterList from './AppFooterList.vue';
+
     export default {
         name: 'AppFooter',
+
+        components: {
+            AppFooterList,
+        },
+
+        data() {
+
+            return {
+                store,
+            }
+        },
     }
 </script>
 
@@ -19,7 +35,8 @@
                 </div>
             </div>
             <div class="footer-links d-flex">
-                <div class="link-list d-flex flex-column gap-4">
+                <AppFooterList v-for="currentLink in store.footerList" :links="currentLink"></AppFooterList>
+                <!-- <div class="link-list d-flex flex-column gap-4">
                     <h3>Support</h3>
                     <ul class="list-unstyled d-flex flex-column gap-2">
                         <li>Contact Us</li>
@@ -48,7 +65,7 @@
                         <li>Contact Us</li>
                         <li>Contact Us</li>
                     </ul>
-                </div>
+                </div> -->
             </div>
             <div class="contact-me d-flex flex-column gap-4">
                 <h3>Contact Me</h3>
