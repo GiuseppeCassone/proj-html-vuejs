@@ -79,7 +79,13 @@
                     width: calc(100% / 5 - 40px / 5 * 4);
                     padding: 20px;
                     border-radius: 120px;
+                    color: white;
                     background-color: $primaryColor;
+                    cursor: pointer;
+
+                    &:hover{
+                        background-color: $fourthColor;
+                    }
     
                     img{
                         width: 80px;

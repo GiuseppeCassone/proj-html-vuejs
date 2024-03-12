@@ -87,6 +87,11 @@
 
         .arrow{
             background-color: $primaryColor;
+            cursor: pointer;
+
+            &:hover{
+                background-color: $fourthColor;
+            }
 
             img{
                 width: 40px;

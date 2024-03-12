@@ -3,8 +3,17 @@
     import AppNav from './AppNav.vue';
     import AppSlider from './AppSlider.vue';
 
+    import { store } from '../store.js';
+
     export default {
         name: 'AppHeader',
+
+        data() {
+
+            return {
+                store,
+            }
+        },
 
         components: {
             AppNavContacts,

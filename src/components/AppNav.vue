@@ -1,6 +1,23 @@
 <script>
+
+import { store } from '../store.js';
+
+import AppNavList from './AppNavList.vue';
+
     export default {
         name: 'AppNav',
+
+        components: {
+            AppNavList,
+        },
+
+        data() {
+
+            return {
+                store,
+            }
+        },
+       
     }
 </script>
 
@@ -13,10 +30,8 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end gap-3" id="navbarNav">
                 <ul class="navbar-nav gap-3">
-                    <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
+                    <AppNavList v-for="currentNavLink in store.navLinks" :navLinks="currentNavLink"></AppNavList>
+                    <!-- <li class="nav-item">
                     <a class="nav-link" href="#">Features</a>
                     </li>
                     <li class="nav-item">
@@ -30,7 +45,7 @@
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="#" >Link</a>
-                    </li>
+                    </li> -->
                 </ul>
                 <button class="btn">Get In Touch!</button>
             </div>
