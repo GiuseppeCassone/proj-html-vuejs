@@ -78,7 +78,7 @@
 @use '../styles/variables' as *;
 
     .ratings{
-        height: 610px;
+        // height: 610px;
         padding-top: 90px;
 
         .fa-star{
