@@ -48,12 +48,18 @@
             color: $primaryColor;
         }
 
-        .btn{
-            padding: 10px 20px;
-            border-radius: 30px;
-            background-color: $primaryColor;
+    }
+    
+    .btn{
+        padding: 10px 20px;
+        border-radius: 30px;
+        background-color: $primaryColor;
+        color: white;
+
+        &:hover{
+            background-color: #173b67;
             color: white;
         }
     }
-
+    
 </style>
