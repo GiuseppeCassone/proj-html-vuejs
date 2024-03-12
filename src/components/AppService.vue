@@ -1,7 +1,21 @@
 <script>
+import { store } from '../store.js';
+
+import AppCard from './AppCard.vue';
 
     export default {
         name: 'AppService',
+
+        components: {
+            AppCard,
+        },
+
+        data() {
+
+            return {
+                store,
+            }
+        },
     }
 
 </script>
@@ -14,46 +28,7 @@
                 <span>Service</span>
                 <h2 class="text-center">DogMilo Pet Care Services<br>For Your Best Friends.</h2>
                 <div class="card-inner d-flex w-100">
-                    <div class="card justify-content-center align-items-center gap-4">
-                        <img src="../../public/img/d-1.png" alt="...">
-                        <div class="card-body text-center p-0">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">The readable content of a page when looking at its layout</p>
-                        </div>
-                        <a href="#" class="btn btn-service"><img class="w-75 h-75" src="../../public/img/right.png" alt=""></a>
-                    </div>
-                    <div class="card justify-content-center align-items-center gap-4">
-                        <img src="../../public/img/d-1.png" alt="...">
-                        <div class="card-body text-center p-0">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">The readable content of a page when looking at its layout</p>
-                        </div>
-                        <a href="#" class="btn btn-service"><img class="w-75 h-75" src="../../public/img/right.png" alt=""></a>
-                    </div>
-                    <div class="card justify-content-center align-items-center gap-4">
-                        <img src="../../public/img/d-1.png" alt="...">
-                        <div class="card-body text-center p-0">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">The readable content of a page when looking at its layout</p>
-                        </div>
-                        <a href="#" class="btn btn-service"><img class="w-75 h-75" src="../../public/img/right.png" alt=""></a>
-                    </div>
-                    <div class="card justify-content-center align-items-center gap-4">
-                        <img src="../../public/img/d-1.png" alt="...">
-                        <div class="card-body text-center p-0">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">The readable content of a page when looking at its layout</p>
-                        </div>
-                        <a href="#" class="btn btn-service"><img class="w-75 h-75" src="../../public/img/right.png" alt=""></a>
-                    </div>
-                    <div class="card justify-content-center align-items-center gap-4">
-                        <img src="../../public/img/d-1.png" alt="...">
-                        <div class="card-body text-center p-0">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">The readable content of a page when looking at its layout</p>
-                        </div>
-                        <a href="#" class="btn btn-service"><img class="w-75 h-75" src="../../public/img/right.png" alt=""></a>
-                    </div>     
+                    <AppCard v-for="currentCard in store.cardList" :cardItem="currentCard"></AppCard>
                 </div>
             </div>
         </div>
