@@ -2,6 +2,7 @@
 
     export default {
         name: 'AppRatings',
+
     }
 
 </script>
@@ -27,42 +28,46 @@
                     </div>
                 </div>
                 <div class="col-8 ratings-slider">
-                    <div class="rating-card d-flex flex-column gap-3 p-4">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <h4>Great Place</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, delectus officiis aperiam totam consequatur omnis. Facilis ex eum aut doloribus! Magnam quia nam beatae eius omnis necessitatibus et a ducimus.</p>
-                        <div class="ratings-users d-flex gap-3">
-                            <img src="../../public/img/t1.png" alt="">
-                            <div class="d-flex flex-column gap-2">
-                                <strong>Tobias May</strong>
-                                <small>UI/UX Designer</small>
+                    <div class="rating-card">
+                        <div class="d-flex flex-column gap-3 p-4">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>                              
+                            </div>
+                            <h4>Great Place</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, delectus officiis aperiam totam consequatur omnis. Facilis ex eum aut doloribus! Magnam quia nam beatae eius omnis necessitatibus et a ducimus.</p>
+                            <div class="ratings-users d-flex gap-3">
+                                <img src="../../public/img/t1.png" alt="">
+                                <div class="d-flex flex-column gap-2">
+                                    <strong>Tobias May</strong>
+                                    <small>UI/UX Designer</small>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="rating-card d-flex flex-column gap-3 p-4">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <h4>Great Place</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, delectus officiis aperiam totam consequatur omnis. Facilis ex eum aut doloribus! Magnam quia nam beatae eius omnis necessitatibus et a ducimus.</p>
-                        <div class="ratings-users d-flex gap-3">
-                            <img src="../../public/img/t1.png" alt="">
-                            <div class="d-flex flex-column gap-2">
-                                <strong>Tobias May</strong>
-                                <small>UI/UX Designer</small>
+                    <div class="rating-card">
+                        <div class="d-flex flex-column gap-3 p-4">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>                              
+                            </div>
+                            <h4>Great Place</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, delectus officiis aperiam totam consequatur omnis. Facilis ex eum aut doloribus! Magnam quia nam beatae eius omnis necessitatibus et a ducimus.</p>
+                            <div class="ratings-users d-flex gap-3">
+                                <img src="../../public/img/t1.png" alt="">
+                                <div class="d-flex flex-column gap-2">
+                                    <strong>Tobias May</strong>
+                                    <small>UI/UX Designer</small>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </div>                                      
                 </div>
             </div>
             <div class="arrows-box d-flex justify-content-end gap-4 mt-3">
@@ -78,7 +83,7 @@
 @use '../styles/variables' as *;
 
     .ratings{
-        // height: 610px;
+     
         padding-top: 90px;
 
         .fa-star{
@@ -100,6 +105,7 @@
 
         .ratings-slider{
             display: flex;
+            width: 800px;
             gap: 20px;
 
             .rating-card{

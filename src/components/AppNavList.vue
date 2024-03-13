@@ -4,7 +4,7 @@
         name: 'AppNavList',
 
         props: {
-            navLinks: Array,
+            navLinks: String,
         }
        
     }

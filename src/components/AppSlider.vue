@@ -9,8 +9,8 @@
 <template>
 
         <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
+            <div class="carousel-inner big-slider">
+                <div class="carousel-item slide active">
                     <div class="container h-100 d-flex align-items-center">
                         <div class="content-slider w-50 p-5 text-white">
                             <h1 class="mb-3">Welcome to<br>DogMilo Pets</h1>
@@ -20,7 +20,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item slide">
                     <div class="container h-100 d-flex align-items-center">
                         <div class="content-slider w-50 p-5 text-white">
                             <h1 class="mb-3">Welcome to<br>DogMilo Pets</h1>
@@ -30,7 +30,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item slide">
                     <div class="container h-100 d-flex align-items-center">
                         <div class="content-slider w-50 p-5 text-white">
                             <h1 class="mb-3">Welcome to<br>DogMilo Pets</h1>
@@ -55,10 +55,10 @@
 
 <style lang="scss">
 
-    .carousel-inner{
+    .big-slider{
         height: 700px;
 
-        .carousel-item{
+        .slide{
             height: 100%;
             background-image: url(../../public/img/b.png);
             background-size: cover;
